@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+  @apply flex flex-wrap py-5 px-3;
+}
+
+html,
+body {
+  background-color: #f4f2ee;
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+h2 {
+  font-family: "Pacifico", serif;
+}
+h1 {
+  font-family: "Pacifico", serif;
+  background: linear-gradient(
+    to right,
+    #f29724,
+    #da7421,
+    #df7218,
+    #f34957,
+    #d44552
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+/* footer {
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+} */
+.active {
+  background-color: black;
+  color: white;
+}
+.nav.active:hover {
+  background-color: black;
+  color: white;
+}
