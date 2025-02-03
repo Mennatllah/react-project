@@ -13,7 +13,7 @@ export default function Category() {
 
   return (
     <>
-      <h1 className="text-4xl font-bold pb-6">Learn, Cook, Eat Your Food</h1>
+      <h1 className="text-4xl font-bold pb-2">Learn, Cook, Eat Your Food</h1>
       <div className="sm:hidden">
         <select
           onChange={handleSelectChange}

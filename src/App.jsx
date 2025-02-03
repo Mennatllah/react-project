@@ -20,7 +20,6 @@ import Category from "./components/Category/Category";
 import Meals from "./components/Meals/Meals";
 import MealsDetails from "./components/MealsDetails/MealsDetails";
 import Notfound from "./components/Notfound/Notfound";
-
 let x = createBrowserRouter([
   {
     path: "/",

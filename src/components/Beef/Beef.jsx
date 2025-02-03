@@ -36,7 +36,7 @@ export default function Meals() {
                 alt="strMealThumb"
               />
               <div className="mt-24">
-                <h3 className="mb-2 font-bold text-xl ">
+                <h3 className="mb-2 font-bold text-xl sm:pt-7 lg:pt-2">
                   {meal.strMeal.split(" ").slice(0, 2).join(" ")}
                 </h3>
                 <Link to={`/category/MealsDetails/${meal.idMeal}`}>

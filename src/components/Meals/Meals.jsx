@@ -40,7 +40,7 @@ export default function Meals() {
                 alt="strMealThumb"
               />
               <div className="mt-24">
-                <h3 className="mb-2 font-bold text-xl ">{meal.strMeal}</h3>
+                <h3 className="mb-2 font-bold text-xl sm:pt-7 lg:pt-2 ">{meal.strMeal}</h3>
                 <div className="justify-center flex items-center gap-2 ">
                   <i className="fa-solid fa-earth-americas text-green-700"></i>
                   <h3 className="text-green-600 font-mono">{meal.strArea}</h3>
